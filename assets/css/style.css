@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Heebo", sans-serif;
+}
+.nav-first{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: end !important;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav-first a{
+    color: black;
+    height: 43px;
+    font-size: 20px;
+    font-weight: 500;
+}
+ul li a:hover {
+    color: #FF6464 !important;
+    
+}
+.activeLink{
+    color: #FF6464 !important;
+}
+/***** section first start  *****/
+.imgjohn{
+    width: 243px;
+    height: 243px;
+    margin: 17% 0% 18% 26%;
+}
+.heading_sec_1{
+    font-size: 44px;
+    font-weight: 700;
+    color: #21243D;
+}
+.para_sec_1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+}
+.Download_Resume{
+    width: 208px;
+    height: 47px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FF6464;
+}
+.sec_1_card_body{
+    padding: 18% 0% 7% 0%;
+    text-align: start;
+}
+.Sec_1_Grid{
+    border: none;
+}
+.Sec1_Card{
+    padding: 0% 16% 0% 16%;
+}
+/***** section first end  *****/
+/***** section second start  ****/
+.Grid1 h5{
+    font-size: 26px;
+    font-weight: 700;
+    color: #21243D;
+}
+.Grid1 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+}
+.Grid2_Span{
+    margin-inline: 4%;
+}
+.Sec_2_Grid{
+    padding: 2% 20% 2% 16%;
+    background-color: #EDF7FA;
+}
+.Recent_posts{
+    font-size: 22px;
+    font-weight: 400;
+    color: #21243D;
+    padding-bottom: 1%;
+}
+.View_all{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00A8CC;  
+    padding-bottom: 3%;  
+}
+/***** section second end  ****/
+/***** section third start  ****/
+.Featured_Works{
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 0%;
+}
+.Sec3_Cardimg{
+    border: none;
+}
+.Sec3_Card1{
+    padding: 2% 15% 0% 13%;
+}
+.Img_Sec3{
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+}
+.Sec3_Card_Para{
+    font-weight: 700;
+    font-size: 30px;
+    color: #21243D;
+    text-decoration: none;
+}
+.Sec3_Card h5{
+    font-weight: 700;
+    font-size: 30px;
+    color: #21243D;
+}
+.Sec3_Card p{
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.btn_2020{
+    border-radius: 16px;
+    background-color: #142850;
+    color: #ffffff;
+    width: 62px;
+    height: 25px;
+    margin-right: 3%;
+}
+.Sec3_Cardbtn{
+    padding: 2% 0% 2% 0%;
+}
+.Dashboard{
+    font-weight: 400;
+    font-size: 20px;
+}
+/***  footer start ****/
+.Footer_Icon{
+    font-size: 30px;
+    padding: 7% 0% 2% 0%;
+}
+.Footer_Icon i{
+    margin-inline: 19px;
+}
+.Footer_Body{
+    font-weight: 400;
+    font-size: 14px;
+    color: #21243D;
+    padding: 0% 0% 4% 0%;
+}
+/***  footer end ****/
+
+/***** section third end  ****/
+/***** Blog start  ****/
+.Blog_Card{
+    border: none;
+    
+}
+.Blog_Card_Body{
+    padding: 0;
+}
+.Blog_Blog{
+    font-weight: 700;
+    font-size: 44px;
+    margin: 5% 0% 5% 0%;
+}
+.Blog{
+    padding: 2% 20% 2% 20%;
+}
+.Blog_Heading{
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243D;
+}
+.Blog_Para1{
+    font-weight: 400;
+    font-size: 20px;
+    color: #21243D;
+}
+.Blog_Para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+}
+/***** blog end  ****/
+/***** work end  ****/
+.Work{
+    font-weight: 900;
+    font-size: 44px;
+    color: #21243D;
+}
+/***** work end  ****/
+
+/***** work_details start  ****/
+.Work_Details{
+    padding: 2% 20% 2% 20%;
+}
+.Work_Details_Card{
+    border: none;
+}
+.Work_Details_Para{
+    font-weight: 400;
+    font-size: 16px;
+}
+.Work_Details_Heading{
+    font-weight: 700;
+    font-size: 34px;
+    color: #21243D;
+}
+.Work_Details_Btn{
+    border-radius: 16px;
+    background-color: #FF7C7C;
+    color: #ffffff;
+    border: none;
+    width: 62px;
+    height: 25px;   
+    margin-right: 2%;
+}
+.Work_Details_Dashboard{
+    font-weight: 400;
+    font-size: 20px;
+    color: #21243D;
+}
+.Work_Details_Img{
+    width: 681px;
+    height: 460px;
+    margin-top: 2%;
+}
+/***** work_details end  ****/
+
+@media  (max-width: 779px) {
+    .Nav_Toggle {
+      direction: rtl;
+    }
+  }
+@media  (max-width: 779px) {
+    .Work_Details_Img {
+      width: 339px;
+      height: 256px;
+      margin-top: 2%;
+    }
+  }
+
+  @media  (max-width: 779px) {
+    .Work_Details{
+        padding: 0% 0% 0% 0%;
+    }
+  }
+  @media  (max-width: 768px) {
+    .Sec1_Card{
+       display: flex;
+       flex-direction: column-reverse;
+    }
+    .imgjohn{
+        width: 175px;
+        height: 180px;
+        margin: 17% 0% 0% 17%;
+    }
+    .sec_1_card_body{
+        text-align: center;
+    }
+  }
